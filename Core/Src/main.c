@@ -333,9 +333,7 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_TIMERS */
   TimerHandle_t hTimer = xTimerCreateStatic("printStatsTimer", 5000, pdTRUE, (void*)0, PrintStatsCallback, &PrintStatsTimerControlBlock);
-  //xTimerChangePeriod(hTimer, 5000, 0);
   xTimerStart(hTimer, portMAX_DELAY);
-  //osTimerStart(;)
   /* USER CODE END RTOS_TIMERS */
 
   /* Create the queue(s) */
