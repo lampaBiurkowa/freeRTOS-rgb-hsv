@@ -1,4 +1,4 @@
-rgb diode
+RGB diode
 
 3 analog inputs
 
@@ -8,6 +8,6 @@ separate tasks for each color convert to 0-255 & store avg values
 
 current color displayed on led with pwm
 
-clicking a button switches rgb/hsv display mode
+clicking a button switches RGB/HSV display mode
 
 timer prints average values to console
